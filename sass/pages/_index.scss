@@ -1,0 +1,43 @@
+$yellow: #FACC2E;
+
+.intro{
+    height: 350px;
+    background: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    p{
+        text-align: center;
+        font-size: 30px;
+        color: black;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+
+.citat{
+    text-align: center;
+    padding-top: 120px;
+    height: 300px; 
+    
+    
+    cite {
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+    font-weight: 400;
+    }
+    
+    p{
+        font-family: 'Sacramento', cursive;
+        font-size: 40px;
+        font-style: italic;
+        font-weight: bold;
+        color:$yellow;
+        }
+}
+
+
+
+

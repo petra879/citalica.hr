@@ -1,0 +1,108 @@
+.contact{
+    padding-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    .contact_us{
+        max-width: 800px;
+        text-align: center;
+        
+        h2{
+            font-size: 30px;
+            color: #FACC2E;
+        }
+        
+        p{
+            font-size: 20px;
+        }
+    }
+}
+
+
+.containerBox{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+        .contactInfo{
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            
+            .box{
+                position: relative;
+                padding: 20px 0;
+                display: flex;
+                
+                .icon{
+                    min-width: 60px;
+                    height: 60px;
+                    background: #FACC2E;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    font-size: 22px;
+                    z-index: -100;
+                }
+                
+                .text{
+                    display: flex;
+                    margin-left: 10px;
+                    font-size: 16px;
+                    flex-direction: column;
+                }
+            }
+        }
+    
+    
+    
+    .contactForm{
+        width: 40%;
+        padding: 40px;
+        background: #F2F2F2;
+        border-radius: 40px 0 40px 0;
+        
+        h2{
+            color: black;
+        }
+        
+        .inputBox{
+            position: relative;
+            width: 100%;
+            margin-top: 15px;
+            
+            input,textarea{
+                width: 100%;
+                padding: 15px 0;
+                font-size: 15px;
+                margin: 5px 0;
+                border: none;
+                border-bottom: 2px solid #000000;
+                background-color: #F2F2F2;
+                outline: none;
+                resize: none;
+                
+                &[type="submit"]{
+                    width: 120px;
+                    background-color: #FACC2E;
+                    color: black;
+                    border: none;
+                    border-radius: 5%;
+                    cursor: pointer;
+                    padding: 10px;
+                    font-size: 20px;
+                }
+            }  
+          
+            span{
+                color: #FACC2E;
+            }
+        }
+    }
+}

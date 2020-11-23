@@ -1,0 +1,102 @@
+.bg{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+  
+.eknjige{
+    padding-top: 280px;
+    padding-bottom: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    .upload_box{
+
+        form{
+            width: 100%;
+            padding: 50px;
+            background: rgba(230,230,230,0.4);
+            border-radius: 40px 0 40px 0;
+            
+            h2{
+                color: $yellow;
+            }
+
+            input{
+                width: 100%;
+                border: 1px solid black;
+                display: block;
+                padding: 15px;
+                margin-top: 20px;
+                border-radius: 10px;
+            }
+            
+            button{
+                width: 100px;
+                background-color: white;
+                color: black;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                padding: 5px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+
+.eknjige_table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: white;
+  
+    table{
+        border-spacing: 1; 
+        border-collapse: collapse; 
+        overflow: hidden;
+        width: 55%;
+       
+            th{
+                border-bottom: 3px solid #FACC2E;
+                font-size: 20px;
+                height:60px;
+                background: #FACC2E;
+            }
+            
+            td{
+                height: 50px;
+                text-align: center;
+                font-size: 17px;
+                border-bottom: 1px solid #FACC2E;
+                
+                td,a{
+                    text-decoration: none;
+                    color: #610B0B;
+                    font-weight: 600;
+                    font-size: 17px;
+                    
+                    &:hover{
+                        color:  #FACC2E;
+                    }
+                }
+            }
+        
+        .edit_btn{
+             text-decoration: none;
+                width: 100px;
+                background-color: #9db33e;
+                color: white;
+                border-radius: 10px;
+                cursor: pointer;
+                padding: 5px 5px;;
+                font-size: 15px;
+        }
+    }
+}

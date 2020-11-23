@@ -1,0 +1,40 @@
+body{
+    position: relative;
+    z-index: -100;
+    padding-bottom: 150px;
+    min-height: 100vh;
+}
+
+footer{
+    position: absolute;
+    height: 150px;
+    z-index: -100;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #000000;
+    align-items: center;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    
+    .social_media{
+        margin: 15px auto;
+        
+        i{
+            margin: 20px;
+            font-size: 25px;
+            color: white;
+            cursor: pointer;
+            
+             &:hover{
+                color: $yellow;
+            }
+        }
+    }
+    
+    
+    p{
+        margin-bottom: 20px,
+    }
+}

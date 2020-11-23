@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Catamaran', sans-serif;
+    box-sizing: border-box; 
+}
+
+$yellow:#FACC2E;
+
+#sidebar{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: #000000;
+    opacity: 0.7;
+    left: -300px;
+    transition: .4s ease;
+    float: left;  
+    
+     a{
+        text-decoration: none;  
+        color: white;
+        display: block;
+        border-left: 4px solid transparent;
+        position: relative;
+         
+            &:hover{
+                color: $yellow;
+                background: #151515;
+                border-left-color: $yellow;
+            }
+                
+            &:active{
+                color: $yellow;
+                background: #151515;
+                border-left-color: $yellow;
+            }
+         
+            span{
+                position: absolute;
+                top: 50%;
+                right: 20px;
+                transform: translateY(-50%);
+                font-size: 20px; 
+            }
+        }
+    
+    
+    ul {
+        list-style: none;
+        text-indent: 25px;
+        font-size: 20px;
+        line-height: 65px;
+        
+        ul{
+            display: none;
+             
+            li a{
+                   color: #A4A4A4;
+            }
+        }
+    }
+    
+    li {
+        
+        li{ 
+            text-indent: 50px;
+            font-size: 18px;  
+        }
+    }
+    
+    li:hover ul{
+        display: block;
+    }
+}
+
+
+#sidebar.active{
+        left: 0;
+    }
+
+
+.toggle-btn{
+    position: absolute;
+    top: 45px;
+    left:330px;
+    cursor: pointer;
+   
+    span{
+        width: 35px;
+        height: 5px;
+        background: #000000;
+        display: block;
+        margin-top: 4px;
+        border-radius: 6px;
+        float: left;
+    }
+    
+    p{
+       font-size: 30px;
+        position: absolute;
+        float: right;
+        margin-top: -7px;
+        margin-left: 50px;
+    }
+}
+
+
+
+.container{
+    position: fixed;
+    bottom: 80px;
+    padding-left: 20px;
+    
+    input{
+        height: 50px;
+        width: 215px;
+        outline: none;
+        color: black;
+        font-size: 20px;
+        padding: 0 20px;
+        border-radius: 50px;
+        border: 3px solid #FACC2E;
+    }
+    
+    ::placeholder{
+        color:black;
+    }
+    
+    
+    .btn_src{
+        position: absolute;
+        right: 0;
+        top: -15px;
+        background: #FACC2E;
+        line-height: 90px;
+        height: 90px;
+        width: 90px;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 50%;
+        
+        i{
+            font-size: 25px;
+            line-height: 90px;
+        }
+    }
+}

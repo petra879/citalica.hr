@@ -1,0 +1,127 @@
+
+
+.preporuke{
+    padding-top: 120px;
+    
+    
+    
+    form{
+        width: 50%;
+        margin: 50px auto;
+        text-align: left;
+        padding: 20px;
+        border: 1px solid #E6E6E6;
+        border-radius: 40px 0 40px 0;
+        background: #E6E6E6;
+        
+            img{
+            width: 20%;
+            display: flex;
+            float: right;
+        }
+       
+        
+        .preporuke_upload{
+            margin: 10px 0px;   
+            
+            label{
+                display: block;
+                text-align: left;
+                margin: 5px;
+            }
+            
+            input{
+                height: 40px;
+                width: 50%;
+                padding: 5px;
+                font-size: 15px;
+                border: 1px solid #E6E6E6;
+                border-radius: 5px;
+            }
+            
+            textarea{
+                width: 100%;
+                margin-top: 15px;
+                padding: 25px;
+                font-size: 15px;
+                border: 1px solid #E6E6E6;
+                border-radius: 5px;
+            }
+            
+             button{
+                width: 100px;
+                background-color: #FACC2E;
+                color: black;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                padding: 5px;
+                font-size: 20px;
+            }
+        }  
+    }
+    
+    
+    .message{
+        text-align: center;
+        width: 50%;
+        background: #FACC2E;
+        color: black;
+        margin: 10px auto;
+        padding: 5px;
+        border: 1px solid #FACC2E;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    
+    
+    .preporuke_table{
+        padding: 30px;
+        
+        table{
+            width: 70%;
+            text-align: left;
+            border-collapse: collapse;
+            margin: 20px auto;
+            border-spacing: 1; 
+            
+            th{
+                font-size: 18px;
+                height: 60px;
+                background: #FACC2E;
+                text-align: center;
+                padding: 5px;
+            }
+            
+            td{
+                height: 50px;
+                font-size: 17px;
+                border-bottom: 1px solid #FACC2E;
+                padding: 5px;
+            }
+            
+            
+            .edit_btn{
+                text-decoration: none;
+                width: 100px;
+                background-color: #9db33e;
+                color: white;
+                border-radius: 10px;
+                cursor: pointer;
+                padding: 5px 5px;;
+                font-size: 15px;
+            }
+        
+            .del_btn{
+                    text-decoration: none;
+                    width: 100px;
+                    background-color: #8A0808;
+                    color: white;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    padding: 5px 5px;;
+                    font-size: 15px;
+                }
+        }
+    }
+}

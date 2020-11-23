@@ -1,0 +1,117 @@
+.top_book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    
+    .img_auto_slider{
+        padding-top: 160px;
+        height: 550px;
+        width: 750px;
+        padding: 5px;
+        box-shadow: 5px 10px 8px #888888;
+            
+            img{
+                height: 100%;
+                width: 100%;
+                }
+        }
+}
+
+
+.top_book_table{
+    
+    background-color: #FAFAFA;
+    
+    h1{
+        padding-top: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 45px;
+        color: $yellow;
+    }
+    
+    table{
+        width: 50%;
+        text-align: center;
+        border-collapse: collapse;
+        margin: 20px auto;
+        border-spacing: 1;
+        
+        th{
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            height: 60px;
+            background: #FACC2E;
+            text-align: center;
+            padding: 5px;
+        }
+        
+        
+        td{
+            height: 50px;
+            font-size: 17px;
+            border-bottom: 1px solid #FACC2E;
+            padding: 5px;
+            
+              .del_btn{
+                    text-decoration: none;
+                    width: 100px;
+                    background-color: #8A0808;
+                    color: white;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    padding: 5px 5px;;
+                    font-size: 15px;
+                }
+        }
+    }
+}
+
+
+.top_book_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    
+    
+    form{
+        width: 30%;
+        margin: 50px auto;
+        text-align: center;
+        padding: 40px;
+        border-radius: 40px 0 40px 0;
+        background: rgba(230,230,230,0.6);
+    }
+    
+            label{
+                display: block;
+                text-align: center;
+                padding: 15px;
+                font-size: 20px;
+            }
+            
+            input{
+                height: 40px;
+                width: 90%;
+                padding: 5px;
+                font-size: 15px;
+                border: 1px solid #E6E6E6;
+                border-radius: 5px;
+            }
+            
+             button{
+                width: 100px;
+                background-color: #FACC2E;
+                color: black;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                padding: 5px;
+                font-size: 20px;
+            }
+}
